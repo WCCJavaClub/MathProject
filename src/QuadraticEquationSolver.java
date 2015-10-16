@@ -29,8 +29,8 @@ public class QuadraticEquationSolver {
 		double [] answers = new double[2];
 		double x1 = 0.0, x2 = 0.0;
 
-		x1 = (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / 2 * a;
-		x2 = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / 2 * a;
+		x1 = (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
+		x2 = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
 		answers [0] = x1;
 		answers [1] = x2;
 		
