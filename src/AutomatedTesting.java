@@ -1,7 +1,7 @@
 
 public class AutomatedTesting {
-	// purpose of this method is to make sure that returnAnswers return the right values.
-	
+
+	// purpose of this class is to make sure that returnAnswers return the right values.
 	public static void main(String[] args) {
 		double[] answers1 = new double[2], answers2 = new double[2], answers3 = new double [2];
 
