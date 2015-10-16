@@ -15,10 +15,11 @@ public class QuadraticEquationSolver {
 		System.out.println("What is the value of 'c' ?");
 		c = keyboard.nextDouble();
 		
-		// unpack the answers
+		
 		unpackAnswers = returnAnswers(a, b, c);
 		
 		System.out.println("Answers: ");
+		// unpack the answers
 		System.out.println("x1 = " + unpackAnswers[0]);
 		System.out.println("x2 = " + unpackAnswers[1]);
 		
